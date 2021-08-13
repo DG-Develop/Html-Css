@@ -1,0 +1,14 @@
+/* Hermano adyacente */
+
+/*  pone color a todos los parrafos que tengan cerca un h2 */
+
+/* h2 + p{
+    color: crimson;
+} */
+
+/* Hermano general */
+
+/*  pole color a todos los parrafos que tengan en forma general hermana un h2 */
+h2 ~ p{
+    color: crimson;
+}

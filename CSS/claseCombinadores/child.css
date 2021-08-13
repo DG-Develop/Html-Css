@@ -1,0 +1,8 @@
+/* Se pone el color a todos sus hijos directos que sean p */
+/* div > p{
+    color: crimson;
+} */
+
+div p {
+    color: crimson;
+}
