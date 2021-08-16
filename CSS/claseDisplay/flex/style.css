@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container {
+    border: .3rem solid grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1{
+    background-color: deepskyblue;
+}
+
+.box2{
+    background-color: crimson;
+}
+
+.box3{
+    background-color: salmon;
+}
+
+.box4{
+    background-color: forestgreen;
+}
+
+.box5{
+    background-color: palevioletred;
+}
+
+.box6{
+    background-color: khaki;
+}

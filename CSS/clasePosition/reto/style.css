@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+main section{
+    background-color: palegreen;
+    min-width: 200px;
+    max-width: 50%;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 1.6rem;
+    padding: 7rem 4rem;
+    position: relative;
+}
+
+section div{
+    position: absolute;
+    background-color: crimson;
+    min-width: 200px;
+    max-width: 50%;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 1.6rem;
+    padding: 2rem 4rem;
+    top: -3rem;
+    left: calc(50% - 14rem);
+}
+
+div h4{
+    font-size: 2.4rem;
+}
+
+section p{
+    font-size: 1.6rem;
+}
